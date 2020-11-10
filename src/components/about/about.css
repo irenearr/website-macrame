@@ -1,0 +1,45 @@
+.about {
+  min-height: 120vh;
+  margin: 50px;
+  color: #3c3c3c;
+  padding-top: 30px;
+}
+
+body {
+  background-color: #b9d6d1;
+}
+
+.aboutContent {
+  font-size: 1.5rem;
+  text-align: justify;
+  font-family: "Domaine";
+  /* display: flex; */
+}
+
+.pageTitle {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.imageRound1 {
+  width: 22%;
+  margin: 3%;
+  margin-right: 0%;
+  float: right;
+}
+
+.imageRound2 {
+  width: 25%;
+  float: left;
+  margin: 3%;
+  margin-top: 1%;
+}
+
+
+.aboutParagraph {
+
+  float: none;
+}
