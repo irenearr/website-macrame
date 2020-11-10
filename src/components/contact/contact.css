@@ -2,6 +2,7 @@
   min-height: 100vh;
   color: #3c3c3c;
   text-align: left;
+  text-align: center;
 }
 
 .pageTitleContact {
@@ -44,4 +45,8 @@
 
 .icons {
   margin: 2%;
+}
+
+td {
+  padding-right: 10px;
 }
