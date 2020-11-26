@@ -2,10 +2,14 @@ import React from "react";
 import "./App.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import logo from "./images/new-logo.jpg";
+import {Helmet} from "react-helmet";
 
 function App() {
   return (
     <div className="app">
+      <Helmet>
+        <title>Plant Hangers by Irene Arr</title>
+      </Helmet>
       <div id={"home"}></div>
       <div className="menubar">
         <Dropdown>
