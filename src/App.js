@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="app">
       <Helmet>
-        <title>Plant Hangers by Irene Arr</title>
+        <title>Plant Holders by Irene Arr</title>
       </Helmet>
       <div id={"home"}></div>
       <div className="menubar">
