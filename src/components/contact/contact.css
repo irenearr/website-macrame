@@ -15,7 +15,7 @@
 }
 
 .contactList {
-  font-size: 1.5rem;
+  font-size: 18pt;
   list-style-type: none;
   /* text-align: center; */
 }
@@ -50,3 +50,43 @@
 td {
   padding-right: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .contactList {
+    font-size: 12pt;
+  }
+  .pageTitleContact {
+    font-size: 20pt;
+  }
+  .contactFrame {
+    padding: 5%;
+    margin-left: 20%;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .contactList {
+    font-size: 10pt;
+  }
+  .pageTitleContact {
+    font-size: 22pt;
+  }
+  .contactFrame {
+    padding: 2%;
+    margin-left: 55%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contactList {
+    font-size: 12pt;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contactList {
+    font-size: 18pt;
+  }
+}
+
